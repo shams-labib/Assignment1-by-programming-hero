@@ -37,6 +37,10 @@ nav h1 {
     color: white;
     border: none;
     cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.nav-btn:hover {
+    background-color: red;
 }
 .nav-info {
     text-align: center;
@@ -53,6 +57,10 @@ nav h1 {
     border: none;
     margin-top: 57px;
     cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.nav-info-btn:hover {
+    background-color: red;
 }
 .action-section {
    margin: 70px 300px;
@@ -87,6 +95,10 @@ nav h1 {
     color: white;
     margin-top: 30px;
     cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.action-btn:hover {
+    background-color: red;
 }
 .user-section {
     text-align: center;
@@ -94,9 +106,6 @@ nav h1 {
     background-color: #E6E7FF;
     padding: 50px 80px;
     border-radius: 10px;
-}
-.user-container {
-    
 }
 .user-title {
     font-size: 30px;
@@ -193,6 +202,11 @@ nav h1 {
     color: white;
     border-radius: 10px;
     margin-bottom: 18px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.extra-button:hover {
+    background-color: red;
 }
 .extra-image img {
     width: 840px;
@@ -229,10 +243,43 @@ form textarea {
     box-shadow: px 1px 1px 1px rgba(0, 0, 0, 0.1);
     margin-top: 10px;
 }
+.text-area {
+    padding: 20px 20px;
+}
 .form-btn {
     background: #4E47FF;
     height: 50%;
     width: 100%;
     color: white;
     border: none;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.form-btn:hover {
+    background-color: red;
+}
+.footer-container {
+    height: 428px;
+    width: 100%;
+    background-color: white;
+    padding: 100px 0px;
+}
+.footer-text {
+    text-align: center;
+
+}
+.footer-services {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 750px;
+    list-style: none;
+}
+.footer-title {
+    color: #4E47FF;
+    font-size: 100px;
+    font-weight:  800;
+}
+.footer-services li a {
+     text-decoration: none;
 }
