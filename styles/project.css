@@ -228,7 +228,6 @@ nav h1 {
 form label {
     font-size: 15px;
     font-weight: 500;
-    
 }
 form input {
     padding: 20px 32px;
@@ -266,7 +265,6 @@ form textarea {
 }
 .footer-text {
     text-align: center;
-
 }
 .footer-services {
     display: flex;
