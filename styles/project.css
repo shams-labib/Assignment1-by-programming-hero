@@ -199,3 +199,40 @@ nav h1 {
     height: 364px;
     border-radius: 48px;
 }
+.form-section {
+    margin: 90px 400px;
+}
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-title {
+    font-size: 92px;
+    font-weight: bold;
+}
+form label {
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+form input {
+    padding: 20px 32px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    box-shadow: px 1px 1px 1px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+form textarea {
+    border: none;
+    box-shadow: px 1px 1px 1px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+.form-btn {
+    background: #4E47FF;
+    height: 50%;
+    width: 100%;
+    color: white;
+    border: none;
+}
