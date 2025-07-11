@@ -165,3 +165,37 @@ nav h1 {
     margin-top: 10px;
     line-height: 1.2;
 }
+.extra-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.extra-container {
+    width: 1140px;
+    height: 696px;
+    padding: 71px 150px;
+    background-color: #FFFFFF;
+    text-align: center;
+    border-radius: 14px;
+}
+.extra-title {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 28px;
+}
+.extra-sub-title {
+    margin-bottom: 22px;
+}
+.extra-button {
+    background-color: #4E47FF;
+    padding: 12px 36px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 18px;
+}
+.extra-image img {
+    width: 840px;
+    height: 364px;
+    border-radius: 48px;
+}
